@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="WindowsApplication3.exe" version="1.0.0.0" publicKeyToken="67a869c519a67f3c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsApplication3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsApplication3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApplication3.exe" size="21504">
+      <assemblyIdentity name="WindowsApplication3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wJ5SQWfvsQFEDFaIBRgA7Re6WjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Breaking.mp3" size="1883951">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iLV/C6lGH0gMSg9QrduPNKN4TUA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Nevin-PC\Nevin" issuerKeyHash="e3f50376c3ece4442a2d00904b464edac7dbbb98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wvoyU+HaJhJN6MKDzldHkir+dZM=</DigestValue></Reference></SignedInfo><SignatureValue>CjCAuv/s0zo49/VeZ40BPvaAw0b7kUeaGt7i3O8XbhJw9eyJAcS+KB43b+yVeemvmiBfKkfjgqL4oxCa3TzCQkH/Q7wLCygQUL3vFrrq3Tw16MBC3jCi4vNSozBNeTuLQPdOc0xXduXj+L8pqBIQ9bJMO2gkSOJAdYadaZxDl50=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3VIVaT/20dPhwl+1mO6D+koEcrP9N6Km797y0NBSSwZSvRZpEG6fNTSnU5qZtP+SNnPypJ17rkTIk4vG4RQjAuxAKP+eLkdu4fLHl9AjjUIgZY503w/0rWOUdMiT0fmCaKa8XxCf9r3MFJpb0F5yPWAScTxvfsdVKCOrfKCPP68=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9375fe2a924757ce83c2e84d1226dae15332fac2" Description="" Url=""><as:assemblyIdentity name="WindowsApplication3.exe" version="1.0.0.0" publicKeyToken="67a869c519a67f3c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Nevin-PC\Nevin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CHvB3r3rM1QLimNbVbDSKRbkqDg=</DigestValue></Reference></SignedInfo><SignatureValue>G8XRdf5RB6DIhyrLfNbIYY2tFdjmXzgbrgrcEFb9kKzPkld8wbzdpxAtjK2RPvL64f34IQMYjtWSpMFyxditjBuHdoYGtPGEleYE8wM7j/1kjupccdobAH8YXeBnFuB+vbYwM6JCJtOxFd6maam+tCf3+f5+7S9g5y2OtVjME9Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3VIVaT/20dPhwl+1mO6D+koEcrP9N6Km797y0NBSSwZSvRZpEG6fNTSnU5qZtP+SNnPypJ17rkTIk4vG4RQjAuxAKP+eLkdu4fLHl9AjjUIgZY503w/0rWOUdMiT0fmCaKa8XxCf9r3MFJpb0F5yPWAScTxvfsdVKCOrfKCPP68=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQfaG4gvCecrVDkzm/qghRLzANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwATgBlAHYAaQBuAC0AUABDAFwATgBlAHYAaQBuMB4XDTEyMDMyNjIzMjcxN1oXDTEzMDMyNzA1MjcxN1owJzElMCMGA1UEAx4cAE4AZQB2AGkAbgAtAFAAQwBcAE4AZQB2AGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3VIVaT/20dPhwl+1mO6D+koEcrP9N6Km797y0NBSSwZSvRZpEG6fNTSnU5qZtP+SNnPypJ17rkTIk4vG4RQjAuxAKP+eLkdu4fLHl9AjjUIgZY503w/0rWOUdMiT0fmCaKa8XxCf9r3MFJpb0F5yPWAScTxvfsdVKCOrfKCPP68CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCbfj0exhOVUCMphc+6tB80o9wNHZvl/orPAgNbZDV/9QZtsVhDtCTwS5bK4nvPxYSrnyGErjK3QgLB2tpVfBxiSSwlY3EXvBr5tHtt33OfbrwK71h+KQc3hyew/sDBsnB8Hk9eNmha35yrrMaQPkXK7HBPLb0vmvtsHsqLbvi5tQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
